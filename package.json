@@ -1,0 +1,17 @@
+{
+	"name": "32.4-Unit_tests_101",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --colors ./**/*.test.js",
+		"test:watch": "onchange \"./*.js\" -- npm test"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"mocha": "^6.0.2",
+		"onchange": "^5.2.0"
+	}
+}
